@@ -1,0 +1,125 @@
+{
+  "formatVersion": 1,
+  "resources": [
+    {
+      "sourcePath": "skills/grill-me/LICENSE",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grill-me/LICENSE",
+      "packagePath": "skills/requirements-discovery/references/r/001.license"
+    },
+    {
+      "sourcePath": "skills/grill-me/SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grill-me/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/002.md"
+    },
+    {
+      "sourcePath": "skills/grill-me/references/local-execution-contract.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grill-me/references/local-execution-contract.md",
+      "packagePath": "skills/requirements-discovery/references/r/003.md"
+    },
+    {
+      "sourcePath": "skills/grill-me/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grill-me/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/004.md"
+    },
+    {
+      "sourcePath": "skills/grill-me/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grill-me/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/requirements-discovery/references/r/005.yaml"
+    },
+    {
+      "sourcePath": "skills/grilling/LICENSE",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grilling/LICENSE",
+      "packagePath": "skills/requirements-discovery/references/r/006.license"
+    },
+    {
+      "sourcePath": "skills/grilling/SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grilling/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/007.md"
+    },
+    {
+      "sourcePath": "skills/grilling/references/local-execution-contract.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grilling/references/local-execution-contract.md",
+      "packagePath": "skills/requirements-discovery/references/r/008.md"
+    },
+    {
+      "sourcePath": "skills/grilling/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grilling/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/009.md"
+    },
+    {
+      "sourcePath": "skills/grilling/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/requirements-discovery/references/source/grilling/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/requirements-discovery/references/r/010.yaml"
+    },
+    {
+      "sourcePath": "skills/sharpen/LICENSE",
+      "previousPackagePath": "skills/requirements-discovery/references/source/sharpen/LICENSE",
+      "packagePath": "skills/requirements-discovery/references/r/011.license"
+    },
+    {
+      "sourcePath": "skills/sharpen/SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/sharpen/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/012.md"
+    },
+    {
+      "sourcePath": "skills/sharpen/references/local-execution-contract.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/sharpen/references/local-execution-contract.md",
+      "packagePath": "skills/requirements-discovery/references/r/013.md"
+    },
+    {
+      "sourcePath": "skills/sharpen/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/sharpen/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/014.md"
+    },
+    {
+      "sourcePath": "skills/to-spec/LICENSE",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-spec/LICENSE",
+      "packagePath": "skills/requirements-discovery/references/r/020.license"
+    },
+    {
+      "sourcePath": "skills/to-spec/SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-spec/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/021.md"
+    },
+    {
+      "sourcePath": "skills/to-spec/references/local-execution-contract.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-spec/references/local-execution-contract.md",
+      "packagePath": "skills/requirements-discovery/references/r/022.md"
+    },
+    {
+      "sourcePath": "skills/to-spec/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-spec/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/023.md"
+    },
+    {
+      "sourcePath": "skills/to-spec/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-spec/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/requirements-discovery/references/r/024.yaml"
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/LICENSE",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-questionnaire/LICENSE",
+      "packagePath": "skills/requirements-discovery/references/r/015.license"
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-questionnaire/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/016.md"
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/local-execution-contract.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/local-execution-contract.md",
+      "packagePath": "skills/requirements-discovery/references/r/017.md"
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/requirements-discovery/references/r/018.md"
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/requirements-discovery/references/r/019.yaml"
+    }
+  ]
+}

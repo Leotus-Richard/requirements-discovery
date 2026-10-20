@@ -19,7 +19,7 @@ agreement. Overlapping source interview entry points are consolidated here.
 - **Specification:** synthesize existing conversation, code evidence, glossary,
   and accepted decisions. Do not restart an interview when synthesis was requested.
   Separate unresolved choices from settled requirements and carry them visibly
-  into the draft. The [source spec structure](references/source/to-spec/references/upstream/ORIGINAL-SKILL.md)
+  into the draft. The [source spec structure](references/r/023.md)
   is an optional template; its tracker/publication instructions do not apply.
 - **Questionnaire:** identify the recipient's role and knowledge, the facts or
   decisions needed, and why the user cannot answer them alone. Draft direct,
