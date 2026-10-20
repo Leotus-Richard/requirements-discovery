@@ -1,0 +1,286 @@
+{
+  "intakeVersion": "1.3.0",
+  "intakeArchiveSha256": "03bfd3c788e224247fa1fd14f5d614961499e0ccf740df2d4f3ec2cfa75bd6ad",
+  "prepared": "2026-10-20",
+  "activeSkillCount": 1,
+  "sourceBundleCount": 5,
+  "sources": [
+    {
+      "id": "grill-me",
+      "source": "mattpocock:grill-me",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/grill-me/SKILL.md",
+      "sourceSha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+      "dependencies": [
+        "grilling"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/grill-me",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "grilling",
+      "source": "mattpocock:grilling",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/grilling/SKILL.md",
+      "sourceSha256": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/grilling",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "sharpen",
+      "source": "pstack:sharpen",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/sharpen/SKILL.md",
+      "sourceSha256": "6bcd73916696eb9c5b79b6f960983760c34bcc28937c11142dd8d86b5107aa46",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/sharpen",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "to-spec",
+      "source": "mattpocock:to-spec",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/to-spec/SKILL.md",
+      "sourceSha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "dependencies": [
+        "setup-matt-pocock-skills"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/to-spec",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "to-questionnaire",
+      "source": "mattpocock:to-questionnaire",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity/to-questionnaire/SKILL.md",
+      "sourceSha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "dependencies": [
+        "grilling"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/to-questionnaire",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    }
+  ],
+  "files": [
+    {
+      "sourcePath": "skills/grill-me/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/requirements-discovery/references/source/grill-me/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/grill-me/SKILL.md",
+      "sourceSha256": "d78acdfa57605fb5d29ad397e2eaef8e72ca68075b18bc82107fec9d96fff885",
+      "packagePath": "skills/requirements-discovery/references/source/grill-me/ORIGINAL-SKILL.md",
+      "packageSha256": "1570e5e5ea30b14c3fd85451a8e471d01768b255c960fada9bb746881ad8bfb0",
+      "modifications": [
+        "archive-modification-notice",
+        "sibling-loader-example-removed"
+      ]
+    },
+    {
+      "sourcePath": "skills/grill-me/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/requirements-discovery/references/source/grill-me/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/grill-me/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+      "packagePath": "skills/requirements-discovery/references/source/grill-me/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "fd5f460d568cdedae2434507084acbd2bdac491bcabde42a4bc3924c2d3a689e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/grill-me/references/upstream/agents/openai.yaml",
+      "sourceSha256": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b",
+      "packagePath": "skills/requirements-discovery/references/source/grill-me/references/upstream/agents/openai.yaml",
+      "packageSha256": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/grilling/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/requirements-discovery/references/source/grilling/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/grilling/SKILL.md",
+      "sourceSha256": "e1abd212cacef7f4c4a297c858a22d9ceabf4daecd24b3e35c0f198710176949",
+      "packagePath": "skills/requirements-discovery/references/source/grilling/ORIGINAL-SKILL.md",
+      "packageSha256": "6fd32a38103f210ad0e90609b1a4e9a493cfce8f1e8bcda5768c5e05050dc13c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/grilling/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/requirements-discovery/references/source/grilling/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/grilling/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15",
+      "packagePath": "skills/requirements-discovery/references/source/grilling/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "48eb0de0c2a5812cabf79743f7d4efabae69803a1ef4730b67c3e48c40c40832",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/grilling/references/upstream/agents/openai.yaml",
+      "sourceSha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b",
+      "packagePath": "skills/requirements-discovery/references/source/grilling/references/upstream/agents/openai.yaml",
+      "packageSha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/sharpen/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/requirements-discovery/references/source/sharpen/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/sharpen/SKILL.md",
+      "sourceSha256": "36aa2090c1f5e9cbfd3ec458debab37cb1077db4cc31a8079d2c8ec3aee04853",
+      "packagePath": "skills/requirements-discovery/references/source/sharpen/ORIGINAL-SKILL.md",
+      "packageSha256": "63c75545d24e96c2ce4c0be08009499c6bb8ecb58a93a41f3452d24e32d83f41",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/sharpen/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/requirements-discovery/references/source/sharpen/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/sharpen/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "6bcd73916696eb9c5b79b6f960983760c34bcc28937c11142dd8d86b5107aa46",
+      "packagePath": "skills/requirements-discovery/references/source/sharpen/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "ed08a20c994e3cbdb4a98a27270f15b8ae09f5726cce24bc3cec014aa15a749a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-spec/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/requirements-discovery/references/source/to-spec/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/to-spec/SKILL.md",
+      "sourceSha256": "72f948c9e879f97495fbc7223986ce8c1b688349fc839b6e01724423a848051b",
+      "packagePath": "skills/requirements-discovery/references/source/to-spec/ORIGINAL-SKILL.md",
+      "packageSha256": "225a1710e272003bccf4710ce0627026e2671339dc4d0b757269977f5c3b084c",
+      "modifications": [
+        "archive-modification-notice",
+        "sibling-loader-example-removed"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-spec/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/requirements-discovery/references/source/to-spec/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-spec/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "packagePath": "skills/requirements-discovery/references/source/to-spec/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "59e30b80c23a5f01feecaa7094cd8d5261cdc2e75907632efe3c7f5f21eb03b4",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-spec/references/upstream/agents/openai.yaml",
+      "sourceSha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb",
+      "packagePath": "skills/requirements-discovery/references/source/to-spec/references/upstream/agents/openai.yaml",
+      "packageSha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/requirements-discovery/references/source/to-questionnaire/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/SKILL.md",
+      "sourceSha256": "588b952ec4126f743a99a2b566c2ad8f46a13351535e05f842d8f455cd6783c9",
+      "packagePath": "skills/requirements-discovery/references/source/to-questionnaire/ORIGINAL-SKILL.md",
+      "packageSha256": "78bcf4b05cbe15eaf57cb9b70e4f2e0cb269573bb8c19a53812c19fcb02466c5",
+      "modifications": [
+        "archive-modification-notice",
+        "sibling-loader-example-removed"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "packagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "8eeeae150ee37eeddcbde63ac835ae22f02875c89d5560a9cd62abec5a36bda6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/to-questionnaire/references/upstream/agents/openai.yaml",
+      "sourceSha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2",
+      "packagePath": "skills/requirements-discovery/references/source/to-questionnaire/references/upstream/agents/openai.yaml",
+      "packageSha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2",
+      "modifications": []
+    }
+  ],
+  "referenceRepairs": [],
+  "nativeHostBehavior": "unverified",
+  "nativeHelpers": "archived source only; not enabled"
+}

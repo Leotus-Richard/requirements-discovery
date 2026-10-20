@@ -1,0 +1,47 @@
+> Archived source reference, repackaged by Leotus-Richard on 2026-10-20. This is not an active skill or execution policy. Use the domain hub for current task scope and available capabilities; host commands, integrations, local-only rules, identity rules, and publishing steps below are historical examples. Modifications: discovery filename and local links normalized where needed, machine paths replaced where present; source substance retained.
+
+---
+name: to-spec
+description: "Turn agreed local conversation context into a Markdown specification; never publish it or restart a broad interview."
+metadata:
+  version: "1.0.0"
+  profile: "local-task-toolkit"
+  invocation: "task-specific"
+  integration-status: "portable-instructions-host-untested"
+---
+
+# To Spec
+
+## Scope
+
+Read `references/local-execution-contract.md` at task start. This skill is task-specific and local-only. Do not activate remote integrations, persistent modes, hooks or unrelated implementation.
+
+## Workflow
+
+1. Read the source spec template and synthesize existing context, glossary and ADR constraints.
+2. Check the local code only as needed to ground scope and prior art.
+3. Reuse known public test seams; ask only about a materially unresolved seam or decision.
+4. Write problem, solution, user stories, implementation/testing decisions, exclusions and unresolved notes.
+5. Save a local draft. Include no tracker call, remote status change, or inferred ready-for-agent approval.
+
+## Default output
+
+Local spec draft with explicit unresolved decisions and verification criteria.
+
+## Failure boundary
+
+Report the missing input or capability; do not fabricate evidence or broaden the task.
+
+## Conditional skill dependencies
+
+- `setup-matt-pocock-skills`: read the installed sibling skill only when its named discipline is required by the workflow.
+
+Use the host's actual skill loader, or read the current domain hub (historical dependency syntax removed) from this installed directory. Do not guess host tool names. Install the dependency closure shown in manifest.json if these siblings are absent.
+
+## Upstream resources
+
+The full original skill and its resources are preserved under `references/upstream/`. Read `references/upstream/ORIGINAL-SKILL.md` for detailed rubrics, templates and examples when its branch is relevant. Resolve its relative resource paths from that directory. Its tool names, model IDs, publication steps, transcript paths and persistent modes are source-specific examples, not permission to execute them. Follow this hub and the local execution contract when those instructions conflict.
+
+## Provenance
+
+Adapted from [mattpocock:to-spec](https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/to-spec/SKILL.md). The original MIT notice is bundled. This is a local-only adaptation, not an endorsement or a claim of native host support.

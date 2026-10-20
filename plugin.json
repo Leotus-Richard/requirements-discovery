@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "requirements-discovery",
+  "version": "0.1.0",
+  "description": "Clarify requirements through focused interviews, synthesize specifications, and draft stakeholder questionnaires.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/requirements-discovery",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Requirements Discovery",
+        "shortDescription": "Clarify requirements through focused interviews, synthesize spe",
+        "developerName": "Leotus-Richard",
+        "category": "Development"
+      }
+    }
+  }
+}
